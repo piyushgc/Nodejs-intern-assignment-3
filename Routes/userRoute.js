@@ -5,7 +5,7 @@ const { json } = require('body-parser');
 
 const {jwtAuthMiddleware,generateToken} = require('./../jwt')
 router.get('/',(req,res)=>{
-    res.send('hey');
+    res.send('hello');
 })
 
 //signup
